@@ -1,0 +1,14 @@
+# build.properties
+
+sf.username = phong.do@antbuddy.com
+sf.password = Thanhphongdo1998@eF6e81fGoYyqQO78ek596Wj5
+# Use 'https://www.salesforce.com' for production (the default if not specified).
+# Use 'https://test.salesforce.com for sandbox.
+sf.serverurl = https://phuongvu-dev-ed.my.salesforce.com
+
+dev = src
+dev.directory = ${dev}
+retrieveDir	= retrieve
+undeploy.directory = undeploy
+
+

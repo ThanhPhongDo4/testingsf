@@ -1,0 +1,17 @@
+<apex:page>
+    <apex:includeLightning/>
+    <script type="text/javascript" src="/support/api/42.0/lightning/opencti.js"></script>
+    <script src="/js/ablogin.js"/>
+    <div id="AB"></div>
+    <button onclick="signin()">OPEN</button>
+    <script>
+        $Lightning.use("c:loginLayout", function() {
+            $Lightning.createComponent("c:login", 
+            {},
+            "AB",
+            function(cmp) {
+            });
+        });
+        }
+    </script>
+</apex:page>

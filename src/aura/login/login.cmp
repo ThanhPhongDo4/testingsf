@@ -1,0 +1,25 @@
+<aura:component description="Antbuddy login form">
+    <div class="slds-modal__container">
+        <div class="logo">
+            <img src="/resource/antbuddyLogo" align="center" 
+            stype="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;">
+            </img>
+        </div>
+        <div class="slds-form-element slds-p-bottom--medium">
+            <label class="slds-form-element__label" for="text-input-01">Username</label>
+            <div class="slds-form-element__control">
+                <ui:inputText class="slds-input"/>
+            </div>
+        </div>
+        <div class="slds-form-element slds-p-bottom--medium">
+            <label class="slds-form-element__label" for="text-input-01">Password</label>
+            <div class="slds-form-element__control">
+                <ui:inputSecret class="slds-input"/>
+            </div>
+        </div>
+        <button class="slds-button slds-button--brand" aura:id="w" onclick="{!c.handleLogin}">Log In</button>
+    </div>
+</aura:component>
